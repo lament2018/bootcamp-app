@@ -20,24 +20,29 @@ code {
 #vote-row{
   border: 1px solid #000000;
   padding: 1em 0;
-  width: 70%;
+  /*width: 70%;*/
   display: block;
+  text-align: center;
 }
 #btn-add{
   background-color: green;
-  color: #FFF;
-  font-weight: 600;
+    color: #FFF;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: .5em;
 }
 #btn-remove{
   background-color: red;
   color: #FFF;
   font-weight: 600;
+  padding: .5em;
 
 }
 #voting-btn{
   display: inline-block;
   float: right;
   margin-right: 20px;
+  margin-top: 15px;
 }
 #vote-num{
   border: 1px solid #000000;
@@ -51,4 +56,8 @@ h3#vote-name{
   font-weight: 700;
   font-size: 20px;
   display: inline-block;
+}
+.brand-logo{
+  width: 150px;
+  height: auto;
 }
